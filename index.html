@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASRO TV - تحميل تطبيق ناصرو تيفي الأصلي للاندرويد</title>
+    <meta name="description" content="حمل تطبيق NASRO TV مجاناً برابط مباشر لمشاهدة المباريات والقنوات العربية والأجنبية مجاناً.">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #7c3aed; /* بنفسجي رئيسي */
+            --primary-dark: #6d28d9;  /* بنفسجي داكن */
+            --bg-color: #0f172a;       /* خلفية داكنة جيدة للعين */
+            --card-bg: #1e1b4b;      /* بنفسجي داكن جداً للبطاقات */
+            --text-color: #f8fafc;
+            --accent-color: #a855f7;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        /* الهيدر / الشريط العلوي */
+        header {
+            background-color: #1a103c;
+            padding: 15px 20px;
+            text-align: center;
+            border-bottom: 2px solid var(--primary-color);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            color: #ffffff;
+            font-size: 22px;
+        }
+
+        /* الحاوية الرئيسية */
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 0 15px;
+        }
+
+        /* بطاقة التطبيق الرئيسية */
+        .app-card {
+            background-color: var(--card-bg);
+            border-radius: 16px;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(124, 58, 237, 0.2);
+            border: 1px solid rgba(168, 85, 247, 0.2);
+            margin-bottom: 25px;
+        }
+
+        .app-logo {
+            width: 110px;
+            height: 110px;
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            border-radius: 24px;
+            margin: 0 auto 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            font-weight: bold;
+            color: #fff;
+            box-shadow: 0 5px 15px rgba(124, 58, 237, 0.4);
+        }
+
+        .app-title {
+            font-size: 26px;
+            margin-bottom: 8px;
+        }
+
+        .app-subtitle {
+            color: #cbd5e1;
+            font-size: 15px;
+            margin-bottom: 20px;
+        }
+
+        /* جدول / قائمة مواصفات التطبيق */
+        .app-info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 12px;
+            margin: 20px 0;
+            text-align: right;
+        }
+
+        .info-item {
+            background-color: rgba(255, 255, 255, 0.05);
+            padding: 12px 15px;
+            border-radius: 8px;
+            font-size: 14px;
+            border-right: 3px solid var(--accent-color);
+        }
+
+        .info-item strong {
+            color: #a855f7;
+            display: block;
+            font-size: 12px;
+            margin-bottom: 2px;
+        }
+
+        /* أزرار التحميل */
+        .download-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+            color: white;
+            padding: 16px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 15px 0;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(124, 58, 237, 0.4);
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
+            box-shadow: 0 6px 20px rgba(168, 85, 247, 0.5);
+        }
+
+        /* قسم المميزات */
+        .features-card {
+            background-color: var(--card-bg);
+            border-radius: 16px;
+            padding: 25px;
+            margin-bottom: 25px;
+            border: 1px solid rgba(168, 85, 247, 0.2);
+        }
+
+        .features-card h3 {
+            color: var(--accent-color);
+            margin-bottom: 15px;
+            font-size: 20px;
+            border-bottom: 2px solid rgba(168, 85, 247, 0.2);
+            padding-bottom: 8px;
+        }
+
+        .features-list {
+            list-style: none;
+        }
+
+        .features-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .features-list li i {
+            color: #22c55e;
+        }
+
+        /* الفوتر */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #94a3b8;
+            font-size: 13px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- الشريط العلوي -->
+    <header>
+        <h1>NASRO TV - الموقع الرسمي</h1>
+    </header>
+
+    <div class="container">
+        <!-- البطاقة الرئيسية للتطبيق -->
+        <div class="app-card">
+            <div class="app-logo">NASRO TV</div>
+            <h2 class="app-title">تطبيق NASRO TV الأصلي</h2>
+            <p class="app-subtitle">أفضل تطبيق لمشاهدة المباريات والقنوات العربية والأجنبية مجاناً على الأندرويد</p>
+
+            <!-- معلومات التطبيق -->
+            <div class="app-info-grid">
+                <div class="info-item">
+                    <strong>اسم التطبيق</strong>
+                    NASRO TV APK
+                </div>
+                <div class="info-item">
+                    <strong>الأنظمة المدعومة</strong>
+                    Android +4.2
+                </div>
+                <div class="info-item">
+                    <strong>الحجم</strong>
+                    36 MB
+                </div>
+                <div class="info-item">
+                    <strong>الإصدار</strong>
+                    V1.0
+                </div>
+                <div class="info-item">
+                    <strong>القسم</strong>
+                    قنوات بث مباشر / رياضة
+                </div>
+                <div class="info-item">
+                    <strong>التخزين / السعر</strong>
+                    مجاني 100%
+                </div>
+            </div>
+
+            <!-- زر التحميل المباشر -->
+            <a href="nasro-tv.apk" download class="download-btn">
+                <i class="fa-solid fa-download"></i>
+                تحميل NASRO TV APK (رابط مباشر)
+            </a>
+        </div>
+
+        <!-- قسم مميزات التطبيق -->
+        <div class="features-card">
+            <h3>مميزات تطبيق NASRO TV</h3>
+            <ul class="features-list">
+                <li><i class="fa-solid fa-circle-check"></i> بث مباشر للمباريات والبطولات بجودات مختلفة (Weak, SD, HD, FHD)</li>
+                <li><i class="fa-solid fa-circle-check"></i> سيرفرات قوية وسريعة تتحمل الضغط العالي أثناء المباريات</li>
+                <li><i class="fa-solid fa-circle-check"></i> يحتوي على باقة القنوات الرياضية والترفيهية العائلية</li>
+                <li><i class="fa-solid fa-circle-check"></i> مشغل خارجي سريع وسلس يدعم جميع الأجهزة</li>
+                <li><i class="fa-solid fa-circle-check"></i> تصميم عصري وسهل الاستخدام مناسب لجميع الفئات</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- الفوتر -->
+    <footer>
+        حقوق النشر © 2026 NASRO TV. جميع الحقوق محفوظة.
+    </footer>
+
+</body>
+</html>
